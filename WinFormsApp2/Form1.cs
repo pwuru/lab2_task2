@@ -12,14 +12,8 @@ namespace WinFormsApp2
         private void button1_Click(object sender, EventArgs e)
         {
             string sentence;
-            try
-            {
-                sentence = this.textSentence.Text;
-            }
-            catch (FormatException)
-            {
-                return;
-            }
+
+            sentence = this.textSentence.Text;
 
             Properties.Settings.Default.sentence = sentence;
             Properties.Settings.Default.Save();

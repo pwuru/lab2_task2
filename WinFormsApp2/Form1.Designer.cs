@@ -78,7 +78,7 @@
             Controls.Add(label1);
             Controls.Add(textSentence);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Задача на строки";
             ResumeLayout(false);
             PerformLayout();
         }
